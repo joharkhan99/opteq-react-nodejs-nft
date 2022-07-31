@@ -12,13 +12,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 var firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
-  measurementId: process.env.REACT_APP_FIREBASE_MEASURE_ID,
+  apiKey: "AIzaSyBCyzZYVAYqliQuqhxpGFz0bet4Bj5XQbY",
+  authDomain: "opteq-api.firebaseapp.com",
+  projectId: "opteq-api",
+  storageBucket: "opteq-api.appspot.com",
+  messagingSenderId: "1025631960808",
+  appId: "1:1025631960808:web:4ba25e433d25c48a1fd35d",
+  measurementId: "G-BRJT945ZJJ",
 };
 firebase.initializeApp(firebaseConfig);
 let database = firebase.database();
