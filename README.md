@@ -56,7 +56,7 @@ https://opteq-nft.herokuapp.com/search/nfthash/bafyreibxywz2kqpauasozwfcubhvk3oh
 ```
 https://opteq-nft.herokuapp.com/search/uniqueid/9ab9e25b-1647-43f5-87ad-fb4fd6877d44
 ```
-
+<i>You can add as many api endpoints as you want. Just go to server.js and add your endpoint and its functionality</i>
 
 ## How this works
 
