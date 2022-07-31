@@ -34,7 +34,7 @@ NODE_ENV=production yarn dev:server
 
 - adds a record to firebase
 ```
-/addrecord
+https://opteq-nft.herokuapp.com/addrecord
 ```
 - gets record by wallet address
 ```
