@@ -21,10 +21,8 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      {/* <Route path="/MyRecord/:walletAddress" element={<MyRecords />} />
-      <Route path="/MyRecord" element={<MyRecords />} />
-      <Route path="/search" element={<Search />} /> */}
-
+      <Route path="/myrecord/:walletAddress" element={<MyRecords />} />
+      <Route path="/myrecord" element={<MyRecords />} />
       <Route path="/search" element={<Search />} />
     </Routes>
   </BrowserRouter>
