@@ -10,7 +10,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-// import MyRecords from "./MyRecords";
+import MyRecords from "./MyRecords";
 // import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Search from "./Search";
